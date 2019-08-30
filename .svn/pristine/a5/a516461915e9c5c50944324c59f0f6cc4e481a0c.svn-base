@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+  <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+  <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#kw-tripledes" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <KeyName>MyKey</KeyName>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>hlAMWiCbxBj41fag5Qdz2/GlHJIH9fWVkUEjM/EQhMP6lIjHxNQlbrdYcUmL6QGW</CipherValue>
+      </CipherData>
+    </EncryptedKey>
+  </KeyInfo>
+  <CipherData>
+    <CipherValue>xYCmEHDeOm0A0tMcAW5LMcO892HxA3fLm5PsUWwCKFzjlH110UWh5objd7CnyEU8DtHGglnt9j5+WpPOVjMIU+rreXiBWW5WSBwCjvgIvtrBNJXoGiwJNRcxBKLaPXQzZxR9+IgLBsNAn2H5z4ULV5CkeLmc10v2T234ccwAzVWkxFPmIrEiXpoyY6w3HhRXJMyOlwIg/HUMGfL/5CujYw5W4OtqxFCk0nHwqaPMT31Kh/03kv3fmekGUM2PXS7VudN3Iv2MQQ5FpwCsON1VhFFykSGcLkVmxq82BDSv63eiUghHV6z6kSoXpTX0ifYqY5I4Hfg3DbnlsUH3hC7BgNeFK4aBwtQlDyczfILx9+rjSvPH4F+VU7KOh5QZ344T/cpTytfFwEIQqImsjZOteLknLrwA1MJ+7G2S2TiOzcMCxACD2tUI0TdSmtxe0SOANQ0dtnQBLR5Lyw0APhL+4WG+NRg5ZYhIvEh+6B2vMwkLasc3FCcXd6g/pnaOWGnyGBgKalTlbE4bH4mbbFUrTTnsJmXQAii0QqwQH/MaEhDztiBpSWXOVl61wl2xyzk4JCICFpQz62mvaz2QnDv3gdtEJE1cFDuxe1lN6eYN4eibAiGPvSKKH6Nsq/azE5lpo8wWKfkrCtBcDY1U8C/F5srMWlEO19KJBw70cKnTflTkw4YewD/6xbvt50dEG3jbkswEYBmUJqSNsOoERdYcOyEWrbKo7IWfpzpZjlfMV99zRtm+GhSEuJJBK5euVjGir+XCFxbCRBukVVF4ONkhKa3uNUuYHO/xs8rf5XHVWQw8MHJtpedjve1Hge1dqBIVoI7/2m1K6gAHOGv39Dd2QoJYeilHtpxR7ax+fzSp47WZJTWnrzMr3JiJtLVHiFwnjqufRawrVhto0e2wSUCRCjX4n1zlpJa1g0Pa8ZV9gSybTyuFNCAt4TZxXxQWa89zUqUT45V3Xak9PFkpjK/3H6kNscoeXX6UMX4DpCCCBP6TWJRTE2DUDAtGuggLTDhB9ut/y4GEqD/xl/vCcwnocBQMogrSISfpUnHHVbn01DvBclHeRLPysjNIIF4ZHLR+vAdBJPUIYK8PA4B3XUcwEOzs5OjEBIqG7LpWvdnBg0m81s7sEUtT6j08Hapc6TfUPXzSme0k2zyr+8M1DLGd/3jumjJX2rybfKXskqoP2ggu9Y82v9Dwt8/ngdw8dBmwQh50u+2jvkz/PR66iWPDmpXcYFw9eumsrja5+PRFgf3gmRVgZuKsJWUXPXYxcbjwxuHCSu5YSpXyEk4xtCje5UYnPVTqk/Ca4tJvBO2bNfoHmt01Rth58DacK9k3gCqZ9ri8C7bhJwVAxz3rXQHroYFCzclukGBZ3Gs85FaLnEr3TUnBmYGe/DUfPfrypLB9r3bmoCdp44zLKW7RCb3HuErrB2QuZxTYJ70zP/zG/wIqHjSSJ+L0ru9XgtywB+Zlh+ngLf/VKIZY6bA1oC394XssJZIrXg/DfBLl5pCV2dSy2VDFlRWhc/vw2L2JH3Lt</CipherValue>
+  </CipherData>
+</EncryptedData>

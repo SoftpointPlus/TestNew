@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test
+{
+    public partial class LoginForm : Form
+    {
+        public int Mode { get; set; }
+        public LoginForm()
+        {
+            InitializeComponent();
+            cbRole.SelectedIndex = 0;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (cbRole.Text == "Администратор" && tbPassword.Text == "admin")
+            {
+                Mode = 0;
+                DialogResult = DialogResult.OK;
+               
+            }
+            else
+            {
+                if (cbRole.Text == "Студент" && tbPassword.Text == "student")
+                {
+                    Mode = 1;
+                    if (tbName.Text == "" || tbGroup.Text == "") 
+                    {
+                        MessageBox.Show("Необходимо заполнить поля");
+                        return;
+                    }
+                    Student.Name = tbName.Text;
+                    Student.Group = tbGroup.Text;
+                    DialogResult = DialogResult.OK;
+
+                }
+                else
+                {
+                    MessageBox.Show("Неверный пароль!" );
+                }
+            }
+            
+        }
+
+        private void cbRole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbName.Enabled = cbRole.SelectedIndex != 0;
+            tbGroup.Enabled = cbRole.SelectedIndex != 0;
+    
+        }
+    }
+}

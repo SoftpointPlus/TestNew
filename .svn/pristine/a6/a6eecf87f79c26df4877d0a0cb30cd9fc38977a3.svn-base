@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+  <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+  <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#kw-tripledes" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <KeyName>MyKey</KeyName>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>07VQBLT5Loqp+TsBKJxVhq+GcMQqxMZQ3HPF53OqInYqqAtlZtN31rXKestW3Lk8</CipherValue>
+      </CipherData>
+    </EncryptedKey>
+  </KeyInfo>
+  <CipherData>
+    <CipherValue>x+7Ryo67YfPobY739VQ5MPWQCEBICLUqPyZyZLT5D70JOt5kuUHJMLA9KLmXjTh9</CipherValue>
+  </CipherData>
+</EncryptedData>

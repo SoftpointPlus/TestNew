@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+  <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+  <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#kw-tripledes" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <KeyName>MyKey</KeyName>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>01+7iNHpDodRFuErDRn01W+a7jebGAbPOIdFdp/PVMS3kvHJAsDG32abHsasufuT</CipherValue>
+      </CipherData>
+    </EncryptedKey>
+  </KeyInfo>
+  <CipherData>
+    <CipherValue>wAVzKByahASTiVg+3As/z34/P6Vp8AKZo/ZP+dCWbbLIUOSG8kwqAevRtC1RhY7f+P5ZbSWkMQ5EgGffMDDNgPSdNDyQcRQlRKWxvR7pFmgmt/HuJFvOJfILZu3tXTRr0Yxg6uFQdGjzlQnEF/mzXOtAlxoMuz7uiwgcXnYKLceLSWw47/VS4Dw9XK80FSVIUQE9zQIRY/Fi08G2g5UpPKeLsiS5GMMkTomIiHyAENwDuzw5fBvU0bb09zazDzW+QFK6Zr4Bzn0uYAQfGH16WvILoDxgC4DLCI23vxebD5gBRZjtmW4gp7N+iibdscmi8PcppiyicZSYLrKFTc2PousXajsG04ULJcIU2MM0oIGYUPNm4RpISY37RiOwwqTrjtrFd0fmeXKVTz8Uq4l+bJEzpcm8ijiS0YUa6NLtJNw=</CipherValue>
+  </CipherData>
+</EncryptedData>

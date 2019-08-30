@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test caption="Тест по финансам">
+	<question>
+		<text>Термин «финансы» в современной российской науке, как правило, означает</text>
+		<answers>
+			<answer verity="False">денежные средства экономических субъектов</answer>
+			<answer verity="False">денежные доходы экономических субъектов</answer>
+			<answer verity="False">денежные распределительные отношения</answer>
+		</answers>
+	</question>
+	<question>
+		<text>Обособленная часть финансовых ресурсов государства, организаций и домохозяйств, которая предназначена для восполнения недостатка либо потери финансовых ресурсов в случае чрезвычайных обстоятельств – это:</text>
+		<answers>
+			<answer verity="False">фонды денежных средств</answer>
+		  <answer verity="False">денежные поступления</answer>
+		 <answer verity="True">финансовые резервы</answer>
+		</answers>
+	</question>
+	<question>
+		<text>Формирование рыночных отношений в России привело к появлению звена финансовой системы</text>
+		<answers>
+			<answer verity="True">внебюджетные фонды</answer>
+			<answer verity="True">государственные банки</answer>
+		</answers>
+	</question>
+	<question>
+		<text>Еще вопрос</text>
+		<answers>
+			<answer verity="False">вариант1</answer>
+		<answer verity="False">вариант2</answer>
+		<answer verity="True">вариант3</answer>
+		</answers>
+	</question>
+</test>

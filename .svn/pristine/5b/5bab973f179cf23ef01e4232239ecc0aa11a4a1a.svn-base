@@ -1,0 +1,51 @@
+﻿using CommonLib;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test
+{
+    public partial class SelectFileForm : Form
+    {
+        public string SelectFile { get; set; }
+        public SelectFileForm()
+        {
+            InitializeComponent();
+            CallBackMy.FillFileNameEventHendler = FillFileName;
+        }
+        public void FillFileName(List<string> list)
+        {
+            listBox1.DataSource = list;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+                SelectFile = listBox1.SelectedItem.ToString();
+            }
+            DialogResult = DialogResult.OK;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+        }
+
+        private void listBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+                SelectFile = listBox1.SelectedItem.ToString();
+            }
+            DialogResult = DialogResult.OK;
+        }
+    }
+}
